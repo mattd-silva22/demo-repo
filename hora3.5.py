@@ -1,20 +1,18 @@
 print("bem-vindo")
 def teste():
-    x=input("horas trabalhadas")
+    hora_trabalho = input("horas trabalhadas")
     try:
-        x = float(x)
+    hora_trabalho = float(x)
     except:
         print("favor digite um numero")
         quit()
-    y=input("valor da hora de servico")
+    valor_hora = input("valor da hora de servico")
     try:
-        y= float(y)
+        valor_hora = float(y)
     except:
         print("favor digite um numero")
         quit()
-teste()
-print(x , y)
-xy= x*y
-print("seu salario do dia e" , xy ,"reais")
+salario_dia = hora_trabalho * valor_hora
+print("seu salario do dia e" , salario_dia ,"reais")
     
     
