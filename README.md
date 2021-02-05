@@ -1,3 +1,3 @@
 # Olá , mundo
 
-apenas testandoo GIT
+apenas testando o GIT
